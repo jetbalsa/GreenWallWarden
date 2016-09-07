@@ -1,0 +1,6 @@
+## Interface: 70000
+## Title: GreenWall Warden
+## Author: StarWinds - Stormrage
+## Version: 0.1
+
+main.lua
