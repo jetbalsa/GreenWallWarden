@@ -23,7 +23,7 @@ function GreenWallWarden()
    for k,v in pairs(garry) do
       if not greenarry[k] then
          userlist = userlist .. ", " .. k;
-         SendChatMessage("Hey I see you don't have GREENWALL. Could you please download the addon GREENWALL from curse.com when you have time. It will make it easier for members from the two guilds to see what your saying in chat.", "WHISPER", nil, k); 
+		 ChatThrottleLib:SendChatMessage("BULK", "gw", "I noticed you do not have Greewall Installed, We use Greenwall to make sure everyone can see oneanother in guild chat since we have a sister guild. Greenwall has zero setup and is automated. As this message is as well. Sorry for the spam, have a nice day.", "WHISPER", nil, k);
       end
    end
    print (userlist);
